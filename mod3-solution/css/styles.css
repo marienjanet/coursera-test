@@ -1,0 +1,25 @@
+.row {
+  margin-bottom: 15px;
+}
+.row > div {
+  border: 2px solid red;
+  background-color: gray;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: Comic Sans MS;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-align: left;
+}
