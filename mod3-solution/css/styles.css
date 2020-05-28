@@ -1,19 +1,31 @@
 .row {
   margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 25px;
 }
 .row > div {
-  background-color: gray;
+  background-color: lightblue;
   text-align: center;
+}
+
+h1 {
+	font-family: Comic Sans MS;
+	text-align: right;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: gray;
+  background-color: lightgray;
   border-radius: 0;
   border: 0;
 }
 
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand h1 { 
   font-family: Comic Sans MS;
   color: black;
   font-size: 1.5em;
@@ -23,3 +35,18 @@
   line-height: .75;
   text-align: left;
 }
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
